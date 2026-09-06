@@ -309,7 +309,7 @@ transition: background-color 0.3s ease, transform 0.3s ease;
 
 
 .accueil::before {
-    content: "⋆ ⚘ ⋆;
+    content: "⋆ ⚘ ⋆";
     display: block;
     color: #3A5A40;
     font-size: 28px;
@@ -328,4 +328,61 @@ margin-top: 20px;
     width: 300px;
     max-width: 70%;
 margin-bottom: 20px;
+}
+
+/* Version mobile */
+@media (max-width: 600px) {
+
+    body {
+        padding-top: 80px;
+        background-attachment: scroll;
+        background-size: auto 100vh;
+    }
+
+    nav {
+        padding: 12px 5px;
+    }
+
+    nav a {
+        margin: 0 5px;
+        font-size: 14px;
+    }
+
+    h1 {
+        font-size: 38px;
+    }
+
+    p {
+        font-size: 17px;
+    }
+
+    .hero {
+        padding: 80px 15px;
+        margin: 20px 10px;
+    }
+
+    .hero img {
+        width: 240px;
+        max-width: 80%;
+    }
+
+    .accroche {
+        font-size: 19px;
+    }
+
+    .accueil,
+    .cours,
+    .a-propos,
+    .tarifs,
+    .contact,
+    .outils,
+    .politique-confidentialite {
+        padding: 60px 15px;
+        margin-top: 50px;
+    }
+
+    .a-propos img {
+        width: 100%;
+        max-width: 350px;
+    }
 }
