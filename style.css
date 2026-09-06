@@ -1,0 +1,331 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #DEC59E;
+    background-image: url("chopin.png");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #33432B;
+    font-family: Georgia, serif;
+    text-align: center;
+    padding-top: 100px;
+}
+
+h1 {
+    color: #6A784D;
+    font-size: 56px;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 20px;
+}
+
+nav {
+    background-color: #6A784D;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+box-shadow: 0 2px 10px rgba(32, 40, 8, 0.15);
+}
+
+nav a {
+    color: #DEC59E;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+nav a:hover {
+    color: #F3E8CF;
+}
+
+
+.hero {
+    padding: 140px 20px 120px;
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+background-color: rgba(243, 232, 207, 0.50);
+border-radius: 20px;
+margin: 30px 20px;
+}
+
+.sous-titre {
+    font-size: 14px;
+    letter-spacing: 3px;
+    color: #6A784D;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+}
+.hero .sous-titre {
+    margin-bottom: 5px;
+}
+
+.hero h1 {
+    margin-top: 0;
+}
+.accroche {
+    font-size: 22px;
+    font-style: italic;
+    color: #33432B;
+    margin-top: 0;
+    margin-bottom: 35px;
+    max-width: 600px;
+}
+.bouton {
+    display: inline-block;
+    background-color: #C4866D;
+    color: #DEC59E;
+    padding: 14px 28px;
+    text-decoration: none;
+    border-radius: 30px;
+    transition: background-color 0.3s ease;
+box-shadow: 0 4px 8px rgba(32, 40, 8, 0.15);
+}
+
+.bouton:hover {
+    background-color: #6A784D;
+transform: translateY(-3px);
+transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.accueil {
+    background-color: rgba(243, 232, 207, 0.90);
+    padding: 80px 20px;
+    margin-top: 80px;
+}
+
+.accueil h2 {
+    color: #6A784D;
+    font-size: 20px;
+}
+
+.accueil p:not(.sous-titre) {
+    max-width: 700px;
+    margin: 20px auto;
+    line-height: 1.8;
+}
+
+
+.cours {
+    background-color: rgba(156, 175, 136, 0.90);
+    padding: 80px 20px;
+    margin-top: 80px;
+}
+
+.cours h2 {
+    color: #F3E8CF;
+    font-size: 20px;
+}
+
+.cours .sous-titre {
+    color: #F3E8CF;
+}
+
+.cours p:not(.sous-titre) {
+    max-width: 700px;
+    margin: 20px auto;
+    line-height: 1.8;
+}
+
+.a-propos {
+    background-color: rgba(243, 232, 207, 0.90);
+    padding: 80px 20px;
+    margin-top: 80px;
+}
+
+.a-propos h2 {
+    color: #6A784D;
+    font-size: 20px;
+}
+
+.a-propos p:not(.sous-titre) {
+    max-width: 700px;
+    margin: 20px auto;
+    line-height: 1.8;
+}
+
+
+.tarifs {
+    background-color: rgba(156, 175, 136, 0.90);
+    padding: 80px 20px;
+    margin-top: 80px;
+}
+
+.tarifs h2 {
+    color: #F3E8CF;
+    font-size: 20px;
+}
+
+.tarifs .sous-titre {
+    color: #F3E8CF;
+}
+
+.tarifs p:not(.sous-titre) {
+    max-width: 700px;
+    margin: 20px auto;
+    line-height: 1.8;
+}
+
+
+.contact {
+   background-color: rgba(243, 232, 207, 0.90);
+    padding: 80px 20px;
+    margin-top: 80px;
+}
+
+.contact h2 {
+    color: #6A784D;
+    font-size: 20px;
+}
+
+.contact p:not(.sous-titre) {
+    max-width: 700px;
+    margin: 20px auto;
+    line-height: 1.8;
+}
+.politique-confidentialite {
+    background-color: #9CAF88;
+    padding: 80px 20px;
+    margin-top: 80px;
+}
+
+.politique-confidentialite h2 {
+    color: #6A784D;
+    font-size: 20px;
+}
+
+.politique-confidentialite p:not(.sous-titre) {
+    max-width: 700px;
+    margin: 20px auto;
+    line-height: 1.8;
+
+}
+
+.outils {
+    background-color: rgba(243, 232, 207, 0.90);
+    padding: 80px 20px;
+    margin-top: 80px;
+}
+
+.outils h2 {
+    color: #6A784D;
+    font-size: 32px;
+}
+
+.outils p:not(.sous-titre) {
+    max-width: 700px;
+    margin: 20px auto;
+    line-height: 1.8;
+}
+
+.outil {
+    background-color: #F3E8CF;
+    max-width: 700px;
+    margin: 40px auto;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(32, 40, 8, 0.12);
+ position: relative;
+}
+.outil h3 {
+    color: #6A784D;
+    font-size: 26px;
+    margin-top: 0;
+}
+
+.outil p {
+    max-width: 600px;
+    margin: 15px auto 0;
+    line-height: 1.7;
+}
+
+.outils::before {
+    content: "𝄞";
+    position: absolute;
+    top: 65px;
+    left: 60px;
+    font-size: 50px;
+    color: #C4866D;
+}
+
+.outils::after {
+    content: "♫";
+    position: absolute;
+    bottom: 40px;
+    right: 60px;
+    font-size: 40px;
+    color: #6A784D;
+}
+
+.outils .outil::before {
+    content: "✧ ❁ ✧";
+    display: block;
+    color: #C4866D;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.contact::before {
+    content: "♫";
+    display: block;
+    color: #C4866D;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.tarifs::before {
+    content: "♪";
+    display: block;
+    color: #F3E8CF;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.a-propos::before {
+    content: "❀ 𝄞 ❀";
+    display: block;
+    color: #C4866D;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.cours::before {
+    content: "♬";
+    display: block;
+    color: #F3E8CF;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+
+.accueil::before {
+    content: "⋆ ⚘ ⋆;
+    display: block;
+    color: #3A5A40;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.a-propos img {
+    width: 400px;
+    max-width: 90%;
+    border-radius: 8px;
+    box-shadow: 0 6px 15px rgba(32, 40, 8, 0.20);
+margin-top: 20px;
+}
+
+.hero img {
+    width: 300px;
+    max-width: 70%;
+margin-bottom: 20px;
+}
