@@ -215,6 +215,9 @@ transition: background-color 0.3s ease, transform 0.3s ease;
 .politique-confidentialite {
     text-align: left;
 }
+.politique-confidentialite li {
+    text-align: left;
+}
 
 .outils {
     background-color: rgba(243, 232, 207, 0.90);
