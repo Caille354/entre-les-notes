@@ -194,9 +194,10 @@ transition: background-color 0.3s ease, transform 0.3s ease;
     line-height: 1.8;
 }
 .politique-confidentialite {
-    background-color: #9CAF88;
+    background-color: rgba(156, 175, 136, 0.90);
     padding: 80px 20px;
     margin-top: 80px;
+
 }
 
 .politique-confidentialite h2 {
@@ -209,6 +210,10 @@ transition: background-color 0.3s ease, transform 0.3s ease;
     margin: 20px auto;
     line-height: 1.8;
 
+}
+
+.politique-confidentialite {
+    text-align: left;
 }
 
 .outils {
@@ -330,6 +335,13 @@ margin-top: 20px;
 margin-bottom: 20px;
 }
 
+.politique-confidentialite ul {
+    max-width: 700px;
+    margin: 20px auto;
+    padding-left: 40px;
+    line-height: 1.8;
+}
+
 /* Version mobile */
 @media (max-width: 600px) {
 
@@ -385,4 +397,6 @@ margin-bottom: 20px;
         width: 100%;
         max-width: 350px;
     }
-}
+
+
+
